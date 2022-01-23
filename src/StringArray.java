@@ -9,7 +9,7 @@ public class StringArray {
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter the name search");
 String s=sc.nextLine();
-String array[]={"ravi","teja","sai","prakash","kumar","srikanth"};
+String array[]={"Srinath","Dev","sai","Soumya","Goud","Dinesh"};
 int flag = 0,i=0;
 for(i=0;i<6;i++)
 {
@@ -19,7 +19,7 @@ for(i=0;i<6;i++)
 		break;
 	}
 }
-if(flag==0)
+if(flag==1)
 	System.out.println("The name " +s+" Exits");
 	else
 		System.out.println("The name " +s+" does not Exits");

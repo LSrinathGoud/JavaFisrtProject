@@ -8,7 +8,7 @@ public class DimensionalArray {
         b = new int[3];
   
         // print single dimensional arrays
-        for (int i = 0; i < 2; i++)
+        for (int i = 1; i < 2; i++)
             System.out.println(b[i]);
   
         
